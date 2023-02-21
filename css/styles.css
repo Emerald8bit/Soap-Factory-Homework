@@ -1,0 +1,254 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%;
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px;
+}
+
+.wrapper {
+    margin-left: 11%;
+    width: 400px;
+}
+
+.content {
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-family: Roboto_Light;
+}
+
+nav .active {
+    color: lightcoral;
+    font-family: Roboto_BoldItalic;
+}
+
+.wrapper p {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-left: 580px;
+}
+
+.content p {
+    margin-top: -90px;
+    height: 85px;
+    font-family: Roboto_Bold;
+    color: lightcoral;
+}
+
+.hero {
+    width: 790px;
+    height: 300px;
+    background-color: salmon;
+    background-image: url("../images/hero.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 15%;
+}
+
+.ownerWrapper{
+    width: 800px;
+    min-height: 350px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 80px;
+}
+
+.ownerWrapper .imageBox{
+    width: 224px;
+    height: 224px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 50px;
+}
+
+.ownerWrapper .imageBox img {
+    height: auto;
+    width: 100%;
+    margin-top: -50px;
+}
+
+.ownerWrapper .imageBoxTwo {
+    width: 224px;
+    height: 224px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 50px;
+}
+
+.ownerWrapper .imageBoxTwo img {
+    height: 100%;
+    width: 100%;
+}
+
+.ownerWrapper .imageBoxPro {
+    width: 224px;
+    height: 224px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 50px;
+}
+
+.ownerWrapper .imageBoxPro img {
+    height: 100%;
+    width: auto;
+    margin-left: -40px;
+}
+
+.ownerWrapper .contentBox{
+    width: 60%;
+    height: 100%;
+    padding-left: 20px;
+}
+
+.ownerWrapper .contentBox h1{
+    color: lightcoral;
+    font-family: Roboto_BoldItalic;
+}
+
+.ownerWrapper .contentBox p {
+    color: gray;
+    font-family: Lora_Italic;
+}
+
+.home-text {
+    width: 800px;
+    min-height: 350px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    font-family: Lora_Italic;
+    color: grey;
+}
+
+.home-text p1 {
+    padding: 40px;
+}
+
+.form {
+    margin: 0 auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    width: 800px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-family: Roboto_Regular;
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 50px;
+    padding-left: 10px;
+    font-size: 16px;
+    border: 2px solid lightcoral;
+}
+
+input:focus {
+    outline: none !important;
+}
+
+.required{
+    color: red !important;
+}
+
+.submit input {
+    border-radius: 50px;
+    background-color: lightcoral;
+    color: white;
+    border: none;
+    width: 20%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    font-family: Roboto_Light;
+}
+
+footer {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    background-color: rgb(237, 237, 237);
+}
+
+.one p {
+    margin-right: 900px;
+    margin-top: 13px;
+    font-family: Roboto_Light;
+}
+
+.two p {
+    margin-left: 930px;
+    margin-top: -41px;
+    font-family: Roboto_Light;
+}
+
+.sideways {
+    font-family: Roboto_Bold;
+    font-size: 80px;
+    position: absolute;
+    top: 400px;
+    left: -50px;
+    width: 450px;
+    text-align: right;
+    transform: rotate(-90deg);
+    color: lightcoral;
+}
+
+@font-face {
+    font-family: Roboto_Regular;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+  }
+
+@font-face {
+    font-family: Roboto_Light;
+    src: url(../fonts/Roboto/Roboto-Light.ttf);
+  }
+
+@font-face {
+    font-family: Roboto_BoldItalic;
+    src: url(../fonts/Roboto/Roboto-BoldItalic.ttf);
+  }
+
+@font-face {
+    font-family: Roboto_Bold;
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+  }
+
+@font-face {
+    font-family: Roboto_Italic;
+    src: url(../fonts/Roboto/Roboto-Italic.ttf);
+  }
+
+@font-face {
+    font-family: Lora_Italic;
+    src: url(../fonts/Lora/Lora-Italic.ttf);
+  }
